@@ -1,19 +1,24 @@
-MoMo Data Processor API
-This project provides a RESTful API that processes MoMo data from an XML file and returns transaction summaries and transaction details with support for pagination, search, and filtering.
+# MoMoDataProcessor Project
 
-Features
-Transaction Summary: Get a summary of the MoMo transactions.
-Transaction Details: Retrieve paginated transaction data, with support for searching and filtering by transaction type.
-XML Data Processing: The data is extracted from a statically stored XML file (data.xml) and processed using a custom processor.
-Project Structure
-app.py: Main Flask application that handles API routes.
-data_processor.py: Contains the logic to process the XML data and perform any necessary calculations.
-/static/xml/data.xml: The XML file containing the MoMo transaction data (this is the source of the data for processing).
-/templates: Directory for HTML templates (in case you want to render a frontend view).
-/static: Folder for static files like images, CSS, etc.
-Requirements
-To run this project, ensure you have the following installed:
+## What is this about?
+This project processes MoMo transaction data from XML files and organizes it for easy analysis. It's a tool that helps users understand their financial data by breaking it down into neat and digestible chunks.
 
-Python 3.x
-Flask
-Any additional dependencies used by data_processor.py (e.g., xml.etree.ElementTree for XML processing).
+## What does it do?
+- **Upload Files**: Upload XML files with MoMo transaction data.
+- **Transaction Summary**: Get a summary of all transactions.
+- **Search & Filter**: Filter transactions by phone number, reference ID, type, and more.
+- **Pagination**: See data in pages instead of scrolling through one massive list.
+
+## How to get it running
+
+### Prerequisites
+Before running the project, I need to make sure I have:
+- Python 3.x
+- Flask installed
+- SQLite (or another database of my choice)
+
+### Steps to Run It
+1. I start by cloning the repo:
+   ```bash
+   git clone <your-github-repo-url>
+   cd <project-directory>
