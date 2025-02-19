@@ -69,21 +69,3 @@ Before running the project, make sure you have:
    python app.py
    ```
 4. Open `index.html` in a browser or run a local server to host the frontend.
-
-## Submission Instructions
-### 1. Code
-- Submit all scripts in a `.zip` archive.
-- Provide a GitHub repo link with a `README.md` and `AUTHORS` file.
-- Include clear instructions to run the application.
-
-### 2. Database
-- Submit the database file (`.db` for SQLite or `.sql` dump for MySQL/PostgreSQL).
-- Provide SQL schema files.
-
-## Assessment Criteria
-- **Data Processing (20%)**: Accuracy in parsing, categorization, and cleaning.
-- **Database Design (20%)**: Structure, efficiency, and integrity.
-- **Frontend Design (25%)**: Interactivity, aesthetics, and clarity.
-- **Code Quality (15%)**: Modularity, readability, and maintainability.
-- **Documentation (10%)**: Clarity in approach, challenges, and decisions.
-- **Bonus (10%)**: API integration or advanced visualizations.
