@@ -64,7 +64,7 @@ Before running the project, make sure you have:
 2. Run the backend server:
    ```bash
    cd momo-dashboard/backend
-venv\Scripts\activate  (for Windows)
+   venv\Scripts\activate  (for Windows)
    ```
 
 3. Paste:
