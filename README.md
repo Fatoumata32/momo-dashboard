@@ -60,12 +60,16 @@ Before running the project, make sure you have:
    git clone <your-github-repo-url>
    cd <project-directory>
    ```
-2. Set up the database:
+  
+2. Run the backend server:
    ```bash
-   python setup_database.py
+   cd momo-dashboard/backend
+venv\Scripts\activate  (for Windows)
    ```
-3. Run the backend server:
-   ```bash
-   python app.py
-   ```
-4. Open `index.html` in a browser or run a local server to host the frontend.
+
+3. Paste:
+```bash
+python -m flask run
+```
+
+4. Open `index.html` in a browser or run a local server to host the front end.
